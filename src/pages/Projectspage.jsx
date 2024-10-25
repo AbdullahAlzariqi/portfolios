@@ -17,12 +17,12 @@ const Projects = () => {
 
   const images =[{
     description:"Pearls logo",
-    imageUrl:"src/assets/items.jpg",
+    imageUrl:"/items.jpg",
     title:"Pearls"
   },
 {
     description:"Acumen logo",
-    imageUrl:"src/assets/Group 1.png",
+    imageUrl:"/Group 1.png",
     title:"Acumen" 
 }
 ]
@@ -31,11 +31,11 @@ const images2 =[
 
 {
   description:"Acumen logo",
-  imageUrl:"src/assets/Group 1.png",
+  imageUrl:"../public/Group 1.png",
   title:"Acumen" 
 },{
   description:"Pearls logo",
-  imageUrl:"src/assets/items.jpg",
+  imageUrl:"../public/items.jpg",
   title:"Pearls"
 }
 ]

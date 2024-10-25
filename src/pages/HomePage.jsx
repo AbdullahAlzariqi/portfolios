@@ -100,7 +100,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="col mx-24 w-[300px]">
-                <img src="./src/assets/picture.png" alt="Items" />
+                <img src="../public/picture.png" alt="Items" />
               </div>
             </div>
           </div>
