@@ -21,9 +21,22 @@ const Projects = () => {
     title:"Pearls"
   },
 {
-    description:"Pearls logo",
-    imageUrl:"src/assets/items.jpg",
-    title:"Pearls" 
+    description:"Acumen logo",
+    imageUrl:"src/assets/Group 1.png",
+    title:"Acumen" 
+}
+]
+
+const images2 =[
+
+{
+  description:"Acumen logo",
+  imageUrl:"src/assets/Group 1.png",
+  title:"Acumen" 
+},{
+  description:"Pearls logo",
+  imageUrl:"src/assets/items.jpg",
+  title:"Pearls"
 }
 ]
 
@@ -137,7 +150,7 @@ const Projects = () => {
 
         {/* Right Column */}
         <div className="flex justify-center items-center mx-24 w-full max-w-md">
-        <Carousel items={images} />
+        <Carousel items={images2} />
         </div>
       </div>
     </div>

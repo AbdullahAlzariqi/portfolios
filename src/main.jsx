@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import './styles/fonts.css'
 import {HomePage,NotFoundPage,Projects} from './pages'
 import {
