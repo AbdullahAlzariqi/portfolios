@@ -117,16 +117,16 @@ const HomePage = () => {
         <h2 className="text-3xl  mb-4">Education</h2>
         <div className="space-y-8">
           <div>
-            <h3 className="text-2xl font-semibold">Master of Science in Computer Science</h3>
-            <p className="text-xl text-white/80">Stanford University</p>
-            <p className="text-lg text-white/60 mb-2">2021 - 2023</p>
+            <h3 className="text-2xl font-semibold">Master of Science in Information Systems</h3>
+            <p className="text-xl text-white/80">Middle East Technical University</p>
+            <p className="text-lg text-white/60 mb-2">2022 - 2024</p>
            
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold">Bachelor of Engineering in Computer Science</h3>
-            <p className="text-xl text-white/80">MIT</p>
-            <p className="text-lg text-white/60 mb-2">2017 - 2021</p>
+            <h3 className="text-2xl font-semibold">Bachelor of Engineering in Civil Engineering</h3>
+            <p className="text-xl text-white/80">TED University</p>
+            <p className="text-lg text-white/60 mb-2">2017 - 2022</p>
             
           </div>
         </div>
@@ -139,9 +139,8 @@ const HomePage = () => {
       <div>
         <h2 className="text-3xl font-Techfontmb-4">Academic Achievements</h2>
         <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed">
-          <li>Dean's List for Academic Excellence (2019-2021)</li>
-          <li>First Place, International Algorithm Competition</li>
-          <li>Published research paper on ML optimization</li>
+          <li>Highest Ranking Student in the Civil Engineering Cohort (2022)</li>
+          <li>Published research paper on The increasing trends of utilizing drones in The Construction Industry</li>
         </ul>
       </div>
     </div>
@@ -160,12 +159,20 @@ const HomePage = () => {
         <h2 className="text-3xl mb-4">Work Experience</h2>
         <div className="space-y-8">
           <div>
-            <h3 className="text-2xl font-semibold">Senior Software Engineer</h3>
-            <p className="text-xl text-white/80">Google</p>
+            <h3 className="text-2xl font-semibold">Business Analyst & Consultant</h3>
+            <p className="text-xl text-white/80">SESTEK</p>
             <p className="text-lg text-white/60 mb-2">2023 - Present</p>
             <p className="text-lg leading-relaxed">
-              Leading development of large-scale distributed systems.
-              Architecting cloud-native solutions for millions of users.
+            -Facilitating project delivery through comprehensive analysis of customer requirements, stakeholder management, and process optimization.<br/>
+
+-Collaborating with cross-functional partners to execute projects and ensure successful implementation.
+Maintaining client relationships post-delivery, conducting follow-ups to ensure satisfaction and identify improvement opportunities.<br/>
+
+-Analyzing and presenting product enhancements to internal teams, driving continuous improvement and aligning solutions with business objectives.<br/>
+
+-Developing and maintaining comprehensive project documentation, including BRDs, functional specifications, and process flow diagrams.<br/>
+
+-Conducting gap analyses between current and desired business processes, proposing data-driven solutions to enhance operational effectiveness.<br/>
             </p>
           </div>
           <div>
