@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Option 1: If image is in public folder */
+html, 
+body,
+#root {
+  min-height: 100vh;
+  background-color: #1E1E1E;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  background-image: url('/src/assets/background.jpeg');
+  opacity: 0.04;  /* Note: no leading dot, assumes image is in public folder */
+  z-index: 1;
+}
